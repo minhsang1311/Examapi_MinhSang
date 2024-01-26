@@ -1,0 +1,22 @@
+﻿Dựa trên biểu đồ quan hệ nhu cầu mua sắm tại các cửa hàng theo tháng trong năm, một nhà phát triển phần mềm có thể đưa ra lựa chọn công nghệ phù hợp để xây dựng trang web đặt hàng và mua sắm trực tuyến cho công ty bán lẻ. Dưới đây là ba lý do cho sự lựa chọn:
+
+1. Serverless Architecture (Kiến Trúc Không Cần Server):
+Lý Do:
+- Tăng giảm linh hoạt: Công nghệ serverless cho phép tự động mở rộng và giảm quy mô nguồn lực dựa trên nhu cầu thực tế. Trong những tháng có nhu cầu mua sắm tăng cao (như tháng 11 với Black Friday), hệ thống có thể mở rộng linh hoạt để đối mặt với lưu lượng truy cập lớn, trong khi trong những tháng ít nhu cầu, nguồn lực có thể tự động giảm đi để tiết kiệm chi phí.
+- Tiết Kiệm Chi Phí Vận Hành: Với kiến trúc không cần server, công ty chỉ trả tiền cho nguồn lực thực sự sử dụng, giúp giảm thiểu lãng phí cho những khoảng thời gian ít hoạt động. Điều này đặc biệt quan trọng khi mà doanh nghiệp đối diện với biến động lớn về nhu cầu theo thời gian.
+- Tăng Tính Khả Dụng và Độ Ổn Định: Công nghệ serverless thường đi kèm với các dịch vụ quản lý tự động, giúp tăng cường tính sẵn sàng và độ ổn định của hệ thống.
+
+2. Single Page Application (Ứng Dụng Trang Đơn):
+Lý Do:
+- Trải Nghiệm Người Dùng Liền Mạch: Các ứng dụng trang đơn cho phép tải một lần và sau đó duyệt các trang nội dung mới mà không cần tải lại toàn bộ trang web. Điều này giúp tối ưu hóa trải nghiệm người dùng và giảm thời gian chờ đợi, đặc biệt quan trọng trong môi trường mua sắm trực tuyến.
+- Tiết Kiệm Băng Thông:** Việc giảm lượng dữ liệu cần tải lại giúp tiết kiệm băng thông cho cả người dùng và doanh nghiệp, đồng thời cải thiện hiệu suất ứng dụng.
+- Dễ Dàng Phát Triển và Bảo Trì: Các ứng dụng trang đơn thường dễ dàng phát triển và bảo trì hơn, với khả năng tái sử dụng mã nguồn và quản lý trạng thái ứng dụng hiệu quả.
+
+3. Đa Nền Tảng (Cross-Platform) Development:
+Lý Do:
+- Tiết Kiệm Chi Phí Phát Triển: Sử dụng các framework phát triển đa nền tảng như React Native hoặc Flutter giúp tiết kiệm chi phí phát triển, vì một lần phát triển có thể chạy trên cả hai hệ điều hành chính (iOS và Android).
+- Dễ Bảo Trì và Cập Nhật: Việc duy trì một mã nguồn chung cho cả hai nền tảng giúp đơn giản hóa quá trình bảo trì và triển khai cập nhật, giảm công sức và chi phí.
+- Đối Mặt với Sự Đa Dạng của Người Dùng: Với chuỗi cửa hàng trên khắp nước Mỹ, sự đa dạng của người dùng về nền tảng di động sẽ được đối mặt. Phát triển đa nền tảng giúp đáp ứng linh hoạt với mọi đối tượng người dùng.
+
+Những lựa chọn công nghệ trên có thể giúp công ty bán lẻ xây dựng một trang web đặt hàng và mua sắm trực tuyến linh hoạt, hiệu quả về chi phí, và đáp ứng tốt với biến động của nhu cầu mua sắm theo thời gian.
+
